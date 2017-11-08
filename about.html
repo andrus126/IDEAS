@@ -1,0 +1,125 @@
+---
+layout: page
+title: "NOSOTROS"
+description: "¿De dónde surgio IDEAS?"
+header-img: "/img/bg-acercade.jpg"
+---
+<center>
+	<h1>
+		Acerca de IDEAS
+	</h1>	
+</center>
+<br/>
+<span class="subheading">
+	<h4 class="text-body">
+	Bienvenidos a la página de <b>IDEAS</b>, el cual es una empresa enfocada en diferentes tecnologías como ser Arduino, Unity.<br/><br/>
+
+	Ideas, una empresa dedicada a crear productos y soluciones exitosas, soluciones en software y/o hardware,brindando un servicio personalizado al cliente.
+
+	“Ideas”: Está considerada como el acto más básico del entendimiento, al contemplar la mera acción de conocer algo. Es la base del conocimiento, en nuestro caso es la base de la solucion que les brindaremos, de ahí surgió <b>IDEAS</b>.<br/><br/>.
+
+	<b>MISION</b><br/><br/>
+
+	Brindar servicios y productos de calidad a las pequeñas, medianas y grandes empresas, superando las expectativas de nuestros clientes, con personal altamente calificado y especializado en diferentes tecnologías, enfocado en dar soluciones a través de las nuevas tendencias en tecnología.<br/><br/>
+
+	<b>VISION</b><br/><br/>
+
+	Buscamos ser un referente en los rubros de educación, robotica,....yyy hay q aumentar o corregir aqui jejeje. Estar siempre a la vanguardia de la tecnología, para ofrecer los más optimos servicios a nuestros clientes. Ser reconocida como una empresa global que brinda una calidad humana y profesional.<br/><br/>
+
+	<b>VALORES</b><br/><br/>
+
+	Compromiso, Transparencia, Calidad, Innovación, Trabajo en Equipo. Confiamos en el aporte de cada integrante, trabajando sinérgicamente orientados a dar lo mejor de cada uno a nuestros
+	clientes.<br/><br/>
+
+	
+	<h2>El Equipo</h2>
+	<h4 class="text-body">El equipo esta conformado por personas calificadas y profesionales en su trabajo.<br/><br/>
+
+	<center>
+		<div class="row" style="width: 100%">
+			{% for equipo in site.data.equipo %}
+				<div class="col-sm-4">
+					<div class="img-profile-effect">
+						<center>
+							<img class="image-member" src="{{ equipo.member-profile }}"/>
+							<h3 class="profile-title">{{ equipo.member-name }}</h3>
+							<h4 class="profile-subtitle">{{ equipo.member-job }}</h4>
+							<div style="display: table; table-layout: fixed; width: 100%; margin-bottom: 20px">
+								{% if equipo.social-fb %}
+								<div style="display: table-cell;">
+									<a href="https://www.facebook.com/{{ equipo.social-fb }}" target="_blank">
+		                            	<span class="fa-stack btn-xs small">
+		                                 	<i class="fa fa-circle fa-stack-2x"></i>
+		                                   	<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+		                               	</span>
+		                           	</a>
+								</div>
+								{% endif %}
+								{% if equipo.social-tw %}
+								<div style="display: table-cell;">
+									<a href="https://www.twitter.com/{{ equipo.social-tw }}" target="_blank">
+		                            	<span class="fa-stack btn-xs small">
+		                                	<i class="fa fa-circle fa-stack-2x"></i>
+		                                   	<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+		                              	</span>
+		                          	</a>
+								</div>
+								{% endif %}
+								{% if equipo.social-gp %}
+								<div style="display: table-cell;" align="center">
+									<a href="https://plus.google.com/{{ equipo.social-gp }}" target="_blank">
+		                            	<span class="fa-stack btn-xs small">
+		                               		<i class="fa fa-circle fa-stack-2x"></i>
+		                                  	<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+		                              	</span>
+		                          	</a>
+								</div>
+								{% endif %}
+								{% if equipo.social-gh %}
+								<div style="display: table-cell;">
+									<a href="https://www.github.com/{{ equipo.social-gh }}" target="_blank">
+		                              	<span class="fa-stack btn-xs small">
+		                                 	<i class="fa fa-circle fa-stack-2x"></i>
+		                                  	<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+		                              	</span>
+		                          	</a>
+								</div>
+								{% endif %}
+								{% if equipo.social-yt %}
+								<div style="display: table-cell;">
+									<a href="https://www.youtube.com/{{ equipo.social-yt }}" target="_blank">
+		                          		<span class="fa-stack btn-xs small">
+		                                 	<i class="fa fa-circle fa-stack-2x"></i>
+		                                  	<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+		                             	</span>
+		                         	</a>
+								</div>
+								{% endif %}
+								{% if equipo.social-ws %}
+								<div style="display: table-cell;">
+									<a href="http://{{ equipo.social-ws }}" target="_blank">
+		                          		<span class="fa-stack btn-xs small">
+		                                 	<i class="fa fa-circle fa-stack-2x"></i>
+		                                  	<i class="fa fa-code fa-stack-1x fa-inverse"></i>
+		                             	</span>
+		                         	</a>
+								</div>
+								{% endif %}
+								{% if equipo.social-gm %}
+								<div style="display: table-cell;">
+									<a href="mailto:{{ equipo.social-gm }}">
+		                          		<span class="fa-stack btn-xs small">
+		                                 	<i class="fa fa-circle fa-stack-2x"></i>
+		                                  	<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+		                             	</span>
+		                         	</a>
+								</div>
+								{% endif %}
+							</div>
+						</center>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</center>
+</span>

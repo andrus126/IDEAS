@@ -1,0 +1,25 @@
+---
+layout: page
+title: "GALERIA"
+description: "Fotografias de algunos productos, cursos y eventos de la mano de IDEAS"
+header-img: "/img/bg-galeria.jpg"
+---
+<center>
+	<h1>{{ page.title }}</h1>	
+	<h4 class="text-body">Galerías de fotos de los distintos trabajos que desarrollamos.</h4></br>
+	<div class="row" style="width: 100%">
+		{% for galeria in site.data.galeria %}
+			<div class="col-sm-6">
+				<a class="ahref" href="{{ galeria.img-gallery }}" target="_blank">
+					<div class="img-effect pic">
+						<img class="image" src="{{ galeria.img-preview }}"/>
+						<h3 class="gallery-title">{{ galeria.img-title }}</h3>
+						<h4 class="gallery-subtitle">{{ galeria.img-description }}</h4>
+						<h5 class="gallery-comment">{{ galeria.img-comment }}</h5>
+					</div>
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+</center>
+

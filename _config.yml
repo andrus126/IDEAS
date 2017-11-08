@@ -1,0 +1,32 @@
+title: IDEAS
+avatar-img: img/icono_ideas.png
+avatar-img2: img/icono_ideas.png
+avatar-logo: img/logo_ideas.png
+header-img: img/home-bg.jpg
+email: ideastechcorp@gmail.com
+copyright_name: IDEAS
+description: "IDEAS, una empresa orientada al desarrollo de tecnologia, tanto en software como hardware, conformada por Bolivianos."
+baseurl: #"https://andrus126.github.io"
+url: "/"
+#baseurl: ""
+#url: ""
+twitter_username: IDEAS_TechCorp
+github_username:  
+facebook_username:  
+google_plus_username: +IdeasTechCorp
+email_username:  info@ideastechcorp.com
+youtube_username:  IdeasTechCorpe
+
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

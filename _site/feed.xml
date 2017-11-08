@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.0.1">Jekyll</generator>
+<link href="//feed.xml" rel="self" type="application/atom+xml" />
+<link href="//" rel="alternate" type="text/html" />
+<updated>2017-11-03T16:32:08-04:00</updated>
+<id>//</id>
+<subtitle>IDEAS, una empresa orientada al desarrollo de tecnologia, tanto en software como hardware, conformada por Bolivianos.</subtitle>
+<entry>
+<title>Lanzamiento Página Ideas</title>
+<link href="//2017/01/20/modelo-post-publicado/" rel="alternate" type="text/html" title="Lanzamiento Página Ideas" />
+<published>2017-01-20T06:00:00-04:00</published>
+<updated>2017-01-20T06:00:00-04:00</updated>
+<id>//2017/01/20/modelo-post-publicado</id>
+<content type="html" xml:base="//2017/01/20/modelo-post-publicado/">&lt;p&gt;&lt;a id=&quot;cabeceras&quot;&gt;&lt;/a&gt;
+# Cabeceras&lt;/p&gt;
+
+&lt;h1 id=&quot;tamanio-1&quot;&gt;Tamanio 1&lt;/h1&gt;
+&lt;p&gt;## Tamanio 2
+### Tamanio 3
+#### Tamanio 4
+##### Tamanio 5
+###### Tamanio 6&lt;/p&gt;
+
+&lt;h1 id=&quot;enfasis-de-palabras&quot;&gt;Enfasis de palabras&lt;/h1&gt;
+
+&lt;p&gt;Por ejemplo &lt;em&gt;esta&lt;/em&gt; palabra esta en &lt;em&gt;cursiva&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esta otra &lt;strong&gt;palabra&lt;/strong&gt; esta en &lt;strong&gt;negrita&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Y esta otra esta &lt;em&gt;&lt;strong&gt;combinada&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;En cambio ~esta~ tiene un ~~tachado~~.&lt;/p&gt;
+
+&lt;h1 id=&quot;listas-a-idlistasa&quot;&gt;Listas &lt;a id=&quot;listas&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Lista de opciones
+* Opcion 1
+    - Sub-opcion 1
+    - Sub-opcion 2
+    - Sub-opcion 3
+* Opcion 2
+* Opcion 3
+    - Sub-opcion 1
+* Opcion 4&lt;/p&gt;
+
+&lt;p&gt;Lista Numerada&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Opcion 1&lt;/li&gt;
+  &lt;li&gt;Opcion 2&lt;/li&gt;
+  &lt;li&gt;Opcion 3&lt;/li&gt;
+  &lt;li&gt;Opcion 4&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;tablas&quot;&gt;Tablas&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Columna 1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Columna 2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Columna 3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Valor 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Valor 2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Valor 3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Aca podemos aprecias otro tipo de tabla.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Columnas&lt;/th&gt;
+      &lt;th&gt;Columnas&lt;/th&gt;
+      &lt;th&gt;Columnas&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nops&lt;/td&gt;
+      &lt;td&gt;Holas&lt;/td&gt;
+      &lt;td&gt;Chau&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nops&lt;/td&gt;
+      &lt;td&gt;Holas&lt;/td&gt;
+      &lt;td&gt;Chau&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nops&lt;/td&gt;
+      &lt;td&gt;Holas&lt;/td&gt;
+      &lt;td&gt;Chau&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;bloques-de-texto&quot;&gt;Bloques de texto&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Este pertenece a este bloque te texto&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Aca va otro bloque&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;En este nuevo bloque de texto puedes escribir cuanto texto tu desee.
+Se visualizara muy buen.
+&amp;gt; Ademas puedes anidar.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tambien tenemos solamente bloques coo:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+Este es un bloque de texto plano que podemos usarlo como queramos y se nos mostrara en forma de bloque o dentro un cuadro
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;bloque-de-codigo-a-idcodigoa&quot;&gt;Bloque de codigo &lt;a id=&quot;codigo&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Aca un ejemplo de Java 
+```java
+    public class MainActivity extends Activity {
+        private Persona persona;
+        private int posicion;
+        private String cadena;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    public static void main(String [] abc) {
+        System.out.println(&quot;Aca podemos colocar una cadena interesante: &quot;+persona);
+    }
+} ``` Aca un ejemplo de CSS ```css .body {
+color: #f00;
+margin-top: 2em;
+margin-bottom: 3 em; } ``` Y aca un ejemplo de HTML ```html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Esta es una pagina web&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Titulo&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;```&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;enlaces&quot;&gt;Enlaces&lt;/h1&gt;
+
+&lt;p&gt;Aca tenemos un &lt;a href=&quot;http://www.google.com&quot;&gt;Enlace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Aca tenemos un &lt;a href=&quot;http://www.google.com&quot; title=&quot;Nos vamos a Google&quot;&gt;Link con descripcion&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tambien podemos llamar a una parte especifica de esta pagina:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#cabeceras&quot;&gt;Por ejemplo ir a Cabeceras&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#listas&quot;&gt;Por ejemplo ir a Listas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#codigo&quot;&gt;Por ejemplo ir a Bloques de codigo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lineas-horizontales&quot;&gt;Lineas horizontales&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;cuerpo&quot;&gt;Cuerpo&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt;
+Aca colocaremos un parrafo dentro del cual podemos usar varios otros componentes como &lt;em&gt;cursivas&lt;/em&gt;, tambien &lt;strong&gt;negritas&lt;/strong&gt;, asi como &lt;em&gt;&lt;strong&gt;mixtas&lt;/strong&gt;&lt;/em&gt; o &lt;code class=&quot;highlighter-rouge&quot;&gt;simplemente&lt;/code&gt; ~~tachados~~
+&lt;/span&gt;&lt;/p&gt;
+</content>
+<author>
+<name>IDEAS</name>
+</author>
+<summary># Cabeceras</summary>
+</entry>
+</feed>

@@ -1,0 +1,63 @@
+---
+layout: page
+description: "Innovando Tecnología, promoviendo el Futuro"
+header-img: "/img/bg-home.jpg"
+---
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            
+            {{ post.title }}
+        </h2>
+        {% if post.description %}
+        <h3 class="post-subtitle">
+            {{ post.description }}
+        </h3>
+        {% endif %}
+        <div align="right" style="width: 100%;">
+            
+            <div style="float: right; text-align: center; vertical-align: middle; margin-right: 5px">
+                <h5 class="text-post-index">
+                            {% assign m = post.date | date: "%-m" %}
+                            {{ post.date | date: "%-d" }}
+                            {% case m %}
+                              {% when '1' %}Enero
+                              {% when '2' %}Febrero
+                              {% when '3' %}Marzo
+                              {% when '4' %}Abril
+                              {% when '5' %}Mayo
+                              {% when '6' %}Junio
+                              {% when '7' %}Julio
+                              {% when '8' %}Agosto
+                              {% when '9' %}Septiembre
+                              {% when '10' %}Octubre
+                              {% when '11' %}Noviembre
+                              {% when '12' %}Diciembre
+                            {% endcase %}
+                            {{ post.date | date: "%Y" }}
+                            <font size="2em"><b> </b></font><b>{% else %}{{ site.title }}{% endif %}  </b> 
+                </h5>
+            </div>
+            <div style="display: block; margin-left: auto; margin-right: auto"></div>
+            <div style="clear: both"></div>
+        </div>
+    </a>
+</div>
+<hr style="border-width: 1px; border-color: #86cc89">
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&larr; Recientes</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Anteriores &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
