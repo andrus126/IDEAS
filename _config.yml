@@ -6,7 +6,7 @@ header-img: img/home-bg.jpg
 email: ideastechcorp@gmail.com
 copyright_name: IDEAS
 description: "IDEAS, una empresa orientada al desarrollo de tecnologia, tanto en software como hardware, conformada por Bolivianos."
-baseurl: "https://andrus126.github.io"
+baseurl: #"https://andrus126.github.io"
 url: "/"
 #baseurl: ""
 #url: ""
