@@ -4,10 +4,10 @@ published:  true
 comments:   false
 header-img: "img/post/post_02.jpg"
 date:       2017-01-20 10:00:00
-title:      "Lanzamiento Página Ideas"
+title:      "prueba segundo post"
 subtitle:   "Se lanza oficialmente la pagina de nuestra Empresa, donde podrn encontrar toda la informacion acerca de nosotros aparte de nuestras actividades."
 author:     "IDEAS"
-description: segunda prueba
+descrption: prueba publicacion
 ---
 
 
